@@ -423,4 +423,5 @@ Configuration.browserCapabilities.setCapability("LT:Options",
 
 # Resources
 https://github.com/selenide-examples/
+
 https://www.youtube.com/watch?v=18J2_4a4Cl4
