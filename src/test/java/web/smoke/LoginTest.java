@@ -1,4 +1,4 @@
-package smoke;
+package web.smoke;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
