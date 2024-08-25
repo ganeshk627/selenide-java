@@ -117,7 +117,6 @@ $$("#user-tags .tag")
 ```
 
 # Find Elements
-
 ```java
 // ID
 $("#loginBtn");
@@ -205,7 +204,7 @@ junit.jupiter.extensions.autodetection.enabled=true
       <version>${allure.version}</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+ </dependencies>
         
  <!--pom.xml ==> Build Plugin -->
 <build>
