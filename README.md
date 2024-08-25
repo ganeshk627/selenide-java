@@ -181,6 +181,8 @@ class MyTest {
 # src/test/resources/junit-platform.properties
 junit.jupiter.extensions.autodetection.enabled=true
 ```
+![Selenide Text Reporter](selenide-text-reporter.png)
+
 ## 2. Selenide + Allure Report
 ```xml
 <!--pom.xml ==> Properties -->
@@ -277,6 +279,8 @@ mvn allure:serve -Dallure.serve.port={your_port}
 mvn allure:report
 
 ```
+![Allure Report](allure-report.png)
+
 > Note:- [Refer more here](https://github.com/selenide-examples/selenide-allure-junit/)
 
 # Uploading a single file
@@ -402,7 +406,6 @@ export LT_USERNAME=gk****
 export LT_ACCESS_KEY=6************************************7
 ```
 2. Before tests
-
 ```java
 Configuration.remote ="https://hub.lambdatest.com/wd/hub";
 
